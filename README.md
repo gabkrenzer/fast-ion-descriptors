@@ -25,7 +25,7 @@ The labelled data is first visualised in `3aa_visualisation.ipynb` and fast-ion 
 ## B. Direct correlations
 M3GNet simulations were ran for all the materials in the PhononDB database by Kasper Tolborg \(`data_kasper_full.csv`\). Direct correlations between phonon descriptors and diffusivity are investigated in `3b_firect_correlations.ipynb`.
 
-# Appendix
+# Appendices
 
 ## A. \(Variational\) AutoEncoder
 An attempt to reduce the dimensionality of the DOS feature vectors using a \(Variational\) AutoEncoder can be found in `aa_AE.ipynb` and `bb_VAE.ipynb`.
