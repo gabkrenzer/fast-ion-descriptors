@@ -36,3 +36,5 @@ An attempt to reduce the dimensionality of the DOS feature vectors using a \(Var
 
 # Acknowledgments
 This work builds upon the work of Amelia Hu realised as part of a UROP summer internship. Her original work can be found at (https://github.com/AmeliaHu0920/urop-project). The internship was co-supervised by Anthony Onwuli and myself.
+
+The data `data_kasper_full.csv` and `stoich_data.csv` was obtained by Kasper Tolborg using M3GNet.
