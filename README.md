@@ -1,7 +1,7 @@
 # Do phonons act as an effective descriptor for fast-ion transport?
 
 # Introduction
-This repository contains a collection of notebooks and data that investigates correlations between vibrational properties and diffusive properties in solids. More background can be obtained from the last Results Chapter of my [thesis](https://spiral.imperial.ac.uk/handle/10044/1/111142).
+This repository contains a collection of notebooks and data that investigates correlations between vibrational properties and diffusive properties in solids. More background can be obtained from the Chapter *Do phonons act as an effective descriptor for fast-ion transport?* of my [thesis](https://spiral.imperial.ac.uk/handle/10044/1/111142).
 
 The outputs obtained by myself can be found in the [data](https://github.com/gabkrenzer/fast-ion-descriptors/tree/main/data) repository
 
