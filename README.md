@@ -35,7 +35,7 @@ An attempt to reduce the dimensionality of the DOS feature vectors using a \(Var
 The notebook `b_full_dataset_labelling.ipynb` can be used to create a dataframe, `data_labelled_kasper.csv`, that includes all the dataset with phonon descriptors *and* diffusivity data.
 
 ## C. Composition-structure-phonon cross-correlation
-A Composition-structure-phonon cross-correlation was also attempted. Composition and structure feature vectors can be obtained using `ca_composition_featuriser.ipynb` and `cb_structure_featuriser.ipynb`, respectively. To run the `cd_csv_corr.ipynb` notebook, the DOS feature vectors must be first converted to `.csv` files using the notebook `cc_npy_to_csv.ipynb`.
+A composition-structure-phonon cross-correlation was also attempted. Composition and structure feature vectors can be obtained using `ca_composition_featuriser.ipynb` and `cb_structure_featuriser.ipynb`, respectively. To run the `cd_csv_corr.ipynb` notebook, the DOS feature vectors must be first converted to `.csv` files using the notebook `cc_npy_to_csv.ipynb`.
 
 # Acknowledgments
 This work builds upon the work of Amelia Hu realised as part of a UROP summer internship. Her original work can be found at (https://github.com/AmeliaHu0920/urop-project). The internship was co-supervised by Anthony Onwuli and myself.
