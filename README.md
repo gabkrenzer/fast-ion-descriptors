@@ -21,7 +21,7 @@ Then, in the `02_labelling_conductivies` notebook, conductivity labels are added
 ## A. High-throughput approach
 The labelled data can be visualised in `3aa_visualisation.ipynb`, where fast-ion conducting outliers and candidates can be identified \(`first_peak_candidates.csv`, `pbc_tot_rt_candidates.csv`, `pbc_diff_unknown_*.csv`\). Unsupervised clustering is also attempted in `3ab_clustering.ipynb` and new candidates are identified \(`circle_dos_fv.csv`\). 
 
-M3GNet simulations are run for all the candidates and more \(`stoich.csv`\). The results are investigated in `3ac_candidates_investigation.ipynb`.
+M3GNet simulations are then run for all the candidates and more. The data is stored in `stoich.csv`. The results are investigated in `3ac_candidates_investigation.ipynb`.
 
 ## B. Direct correlations
 M3GNet simulations were finally ran for all the materials in the PhononDB database by Kasper Tolborg \(`data_kasper_full.csv`\). Direct correlations between phonon descriptors and diffusivity are investigated in `3b_firect_correlations.ipynb`.
