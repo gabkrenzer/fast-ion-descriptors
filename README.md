@@ -11,7 +11,7 @@ The phonon data is obtained from the phonon calculation database created by Atsu
 # 1. Get data: phonon density of states and phonon descriptors
 The notebook `01_get_data.ipynb` contains functions required to organise the phonon density of states \(DOS\) data from PhononDB into a single folder that can be easily worked with later on, as well as functions to calculate phonon descriptors obtained from the DOS data: phonon band-centre, relative spread, DOS first peak, and DOS spectrum featurisation. 
 
-After running `01_get_data.ipynb` a dataframe `data.csv`, and feature vectors of the DOS \(`viball_feature.npy`, `vibli_feature.npy`, `vibtot_feature.npy`\) are obtained. `data.csv` includes composition data as well as descriptor data for each Li-containing material found in the PhononDB database.
+After running `01_get_data.ipynb`, a dataframe `data.csv`, and feature vectors of the DOS \(`viball_feature.npy`, `vibli_feature.npy`, `vibtot_feature.npy`\) are obtained. `data.csv` includes composition data as well as descriptor data for each Li-containing material found in the PhononDB database.
 
 # 2. Labelling conductivities using exisiting conductivity databases
 Then, in the `02_labelling_conductivies` notebook, conductivity labels are added to the dataframe using `digitized_data_for_SSEs.csv`, a database obtained from (https://github.com/FALL-ML/materials-discovery), giving the updated dataframe `labelled_data.csv`.
