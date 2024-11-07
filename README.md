@@ -6,7 +6,7 @@ This repository contains a collection of notebooks and data that investigates co
 The output data obtained by myself running the notebooks presented here can be found in the [data](https://github.com/gabkrenzer/fast-ion-descriptors/tree/main/data) repository
 
 # Preliminary: PhononDB
-Phonon data is obtained from the phonon calculation database created by Atsushi Togo. Please refer to (https://github.com/WMD-group/phononDB) to query the phonon data.
+The phonon data is obtained from the phonon calculation database created by Atsushi Togo. Please refer to (https://github.com/WMD-group/phononDB) to query the phonon data.
 
 # 1. Get data: phonon density of states and phonon descriptors
 The notebook `01_get_data.ipynb` contains functions required to organise the phonon density of states \(DOS\) data from PhononDB into a single folder that can be easily worked with later on, as well as functions to calculate phonon descriptors obtained from the DOS data: phonon band-centre, relative spread, DOS first peak, and DOS spectrum featurisation. 
